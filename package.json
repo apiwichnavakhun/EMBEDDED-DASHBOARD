@@ -1,0 +1,10 @@
+{
+  "name": "cedt-smartbin-dashboard",
+  "version": "2.0.0",
+  "private": true,
+  "description": "CEDT SmartBin owner dashboard (static, mock data) - deploy on Vercel",
+  "scripts": {
+    "dev": "npx --yes serve@14.2.4 public -l 5173",
+    "deploy": "npx --yes vercel --prod"
+  }
+}

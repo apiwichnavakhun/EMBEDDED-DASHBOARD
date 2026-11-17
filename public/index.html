@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>CEDT SmartBin</title>
+  <meta name="description" content="Dashboard ถังขยะอัจฉริยะ CEDT SmartBin — ปริมาณขยะ น้ำหนัก ประเภทขยะ และสถานะอุปกรณ์">
+  <meta name="theme-color" content="#43a047" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#10201a" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/png" href="img/bin_normal_512.png">
+  <link rel="apple-touch-icon" href="img/bin_happy_512.png">
+  <link rel="preload" href="fonts/unifont.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="vendor/chart.umd.min.js" defer></script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#view-home">ข้ามไปเนื้อหา</a>
+  <div id="ptr" class="ptr" aria-hidden="true">ดึงลงเพื่อรีเฟรช</div>
+  <div class="app">
+    <main id="view-home" class="view" aria-live="polite"></main>
+    <main id="view-history" class="view" hidden></main>
+  </div>
+  <noscript><p class="card" style="margin:16px">ต้องเปิด JavaScript เพื่อใช้งาน Dashboard</p></noscript>
+</body>
+</html>
